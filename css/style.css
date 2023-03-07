@@ -1,0 +1,110 @@
+#main-navbar {
+  background-color: rgb(69, 150, 109);
+  overflow: hidden;
+}
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+#onpage {
+  background-color: #000;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Till Nexon", cursive;
+  color: black;
+  transition: transform 1500ms ease;
+}
+
+h1:hover {
+  transform: scale(1.8);
+}
+
+h2 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+body {
+  background-color: beige;
+}
+
+.indexWrap {
+  width: 1000px;
+  margin: auto;
+}
+
+.miscWrap {
+  margin: auto;
+  width: 90%;
+}
+
+.msWrap{
+  margin: auto;
+  width: 90%;
+}
+
+img {
+  height: 300px;
+  width: auto;
+}
+
+#contact{
+  float: left;
+  width: 45%;
+}
+
+#edu{
+  float: right;
+  width: 47%;
+  padding-bottom: 7.7%;
+}
+
+#exp, #projects, #skills{
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+}
+
+section {
+  border: 8px solid;
+  padding: 10px;
+  border-image: repeating-linear-gradient(
+      to bottom right,
+      #33475b,
+      #0033cc,
+      #ff77cc,
+      rgb(255, 122, 89)
+    )
+    20;
+}
