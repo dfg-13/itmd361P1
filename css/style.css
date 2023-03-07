@@ -71,20 +71,19 @@ body {
 
 .msWrap{
   margin: auto;
-  width: 90%;
+  width: 100%;
 }
 
-img {
-  height: 300px;
-  width: auto;
-}
+
 
 #contact{
+  margin-top: 2%;
   float: left;
   width: 45%;
 }
 
 #edu{
+  margin-top: 2%;
   float: right;
   width: 47%;
   padding-bottom: 7.7%;
@@ -107,4 +106,66 @@ section {
       rgb(255, 122, 89)
     )
     20;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+/*Interest 1 page */
+
+#msSection{
+  border: none;
+  box-shadow: none;
+}
+
+#summary{
+  padding-top: 1%;
+  text-align: center;
+}
+
+#alo{
+  width: 50%;
+  float: left;
+  margin-right: 2%;
+  text-align: left;
+  padding: 1.5%;
+}
+
+#eagle img{
+  width: auto;
+  height: 250px;
+}
+
+#jag img{
+  width: auto;
+  height: 300px;
+}
+
+#imageSec figure{
+  text-align: center;
+}
+
+#imageSec figcaption{
+  text-align: center;
+}
+
+#imageSec{
+  border: none;
+  box-shadow: none;
+  float: right;
+  width: 42%;
+}
+
+#proto{
+  text-align: center;
+  float: left;
+  padding-top: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+iframe{
+  width: 90%; /* Set the width to 100% of the parent container */
+  height: 500px; /* Set the height to 0 to allow the aspect ratio to be controlled by the padding-bottom property */
+  box-shadow: rgba(46, 162, 240, 0.4) 5px 5px, rgba(37, 114, 255, 0.377) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  margin-bottom: 3%;
+  margin-left: 5%;
 }
