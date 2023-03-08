@@ -65,10 +65,8 @@ body {
 }
 
 .miscWrap {
-  
   margin: auto;
   width: 90%;
-  
 }
 
 .msWrap {
@@ -165,8 +163,8 @@ section {
 }
 
 iframe {
-  width: 90%; /* Set the width to 100% of the parent container */
-  height: 500px; /* Set the height to 0 to allow the aspect ratio to be controlled by the padding-bottom property */
+  width: 90%; 
+  height: 500px;
   box-shadow: rgba(46, 162, 240, 0.4) 5px 5px,
     rgba(37, 114, 255, 0.377) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px,
     rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
@@ -176,24 +174,24 @@ iframe {
 
 /*Other Interests page */
 
-#d2Img img{
+#d2Img img {
   width: auto;
   height: 200px;
 }
 
-#acImg img{
+#acImg img {
   width: auto;
   height: 250px;
   margin: auto;
 }
 
-#videoGames{
+#videoGames {
   float: left;
   border: none;
   box-shadow: none;
 }
 
-#d2Sec{
+#d2Sec {
   float: left;
   width: 40%;
   padding-left: 1%;
@@ -201,7 +199,7 @@ iframe {
   margin-left: 1%;
 }
 
-#simSec{
+#simSec {
   float: right;
   width: 50%;
   margin-top: 17%;
@@ -209,7 +207,7 @@ iframe {
   padding-right: 2%;
 }
 
-#musicSec{
+#musicSec {
   float: left;
   width: 75%;
   margin-top: 1%;
