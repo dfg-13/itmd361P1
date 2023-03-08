@@ -127,6 +127,17 @@ section {
   margin-right: 2%;
   text-align: left;
   padding: 1.5%;
+  border: 8px solid;
+  padding: 10px;
+  border-image: repeating-linear-gradient(
+      to bottom right,
+      #33475b,
+      #0033cc,
+      #ff77cc,
+      rgb(255, 122, 89)
+    )
+    20;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 #eagle img {
@@ -162,6 +173,17 @@ section {
   padding-right: 2%;
   margin-top: 1%;
   margin-bottom: 1%;
+  border: 8px solid;
+  padding: 10px;
+  border-image: repeating-linear-gradient(
+      to bottom right,
+      #33475b,
+      #0033cc,
+      #ff77cc,
+      rgb(255, 122, 89)
+    )
+    20;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 iframe {
