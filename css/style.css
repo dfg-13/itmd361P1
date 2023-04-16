@@ -248,3 +248,28 @@ iframe {
   padding-left: 3%;
   padding-right: 3%;
 }
+
+/*1st css media query
+  For mobile-friendliness*/
+@media screen and (max-width: 768px) {
+  .mobile{
+    background-color: #757575; 
+  }
+  .indexWrap{
+    width: 84%;
+  }
+  #contact{
+    width: 100%;
+    text-align: center;
+  }
+  #edu{
+    width: 100%;
+    margin-left: auto;
+    position: relative;
+    left: 36px; 
+    text-align: center;
+  }
+  #skills{
+    margin-bottom: 5%;
+  }
+}
