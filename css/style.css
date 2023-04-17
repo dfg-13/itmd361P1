@@ -213,7 +213,7 @@ iframe {
   margin: auto;
 }
 
-#acImg{
+#acImg {
   text-align: center;
 }
 
@@ -252,24 +252,48 @@ iframe {
 /*1st css media query
   For mobile-friendliness*/
 @media screen and (max-width: 768px) {
-  .mobile{
-    background-color: #757575; 
+  .mobile {
+    background-color: #757575;
   }
-  .indexWrap{
+  .indexWrap {
     width: 84%;
   }
-  #contact{
+  #contact {
     width: 100%;
     text-align: center;
   }
-  #edu{
+  #edu {
     width: 100%;
     margin-left: auto;
     position: relative;
-    left: 36px; 
+    left: 36px;
     text-align: center;
   }
-  #skills{
+  #skills {
+    margin-bottom: 5%;
+  }
+}
+
+/*2nd css media query*/
+@media screen and (max-width: 1024px) {
+  .mobile {
+    background-color: #85afb9;
+  }
+  .indexWrap {
+    width: 84%;
+  }
+  #contact {
+    width: 100%;
+    text-align: center;
+  }
+  #edu {
+    width: 100%;
+    margin-left: auto;
+    position: relative;
+    left: 36px;
+    text-align: center;
+  }
+  #skills {
     margin-bottom: 5%;
   }
 }
