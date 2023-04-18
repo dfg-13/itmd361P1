@@ -261,6 +261,7 @@ iframe {
   #contact {
     width: 100%;
     text-align: center;
+    font-size: 0.8em;
   }
   #edu {
     width: 100%;
@@ -268,16 +269,22 @@ iframe {
     position: relative;
     left: 36px;
     text-align: center;
+    font-size: 0.8em;
+  }
+  #projects,#exp{
+    font-size: 0.8em;
   }
   #skills {
     margin-bottom: 5%;
+    font-size: 0.75em;
   }
 }
 
-/*2nd css media query*/
-@media screen and (max-width: 1024px) {
+/*2nd css media query
+for tablets*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .mobile {
-    background-color: #85afb9;
+    background-color: #68a9b9;
   }
   .indexWrap {
     width: 84%;
@@ -295,5 +302,6 @@ iframe {
   }
   #skills {
     margin-bottom: 5%;
+    font-size: .9em;
   }
 }
