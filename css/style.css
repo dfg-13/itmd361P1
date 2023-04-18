@@ -305,3 +305,11 @@ for tablets*/
     font-size: .9em;
   }
 }
+
+#googleMap{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 95%;
+  height: 600px;
+}
