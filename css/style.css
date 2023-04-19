@@ -85,6 +85,9 @@ body {
   float: right;
   width: 45%;
   padding-bottom: 7.43%;
+  position: relative;
+  left: 36px;
+  margin-bottom: 2.5%;
 }
 
 #exp,
@@ -93,6 +96,7 @@ body {
   float: left;
   width: 100%;
   margin-top: 10px;
+  margin-bottom: 2.5%;
 }
 
 section {
@@ -213,7 +217,7 @@ iframe {
   margin: auto;
 }
 
-#acImg{
+#acImg {
   text-align: center;
 }
 
@@ -247,4 +251,81 @@ iframe {
   margin-left: 4%;
   padding-left: 3%;
   padding-right: 3%;
+}
+
+/*1st css media query
+  For mobile-friendliness*/
+@media screen and (max-width: 768px) {
+  .mobile {
+    background-color: #757575;
+  }
+  .indexWrap {
+    width: 84%;
+  }
+  #contact {
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    margin-bottom: 2%;
+  }
+  #edu {
+    width: 100%;
+    margin-left: auto;
+    position: relative;
+    left: 36px;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  #projects,#exp{
+    font-size: 0.8em;
+  }
+  #skills {
+    margin-bottom: 5%;
+    font-size: 0.75em;
+  }
+}
+
+/*2nd css media query
+for tablets*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .mobile {
+    background-color: #68a9b9;
+  }
+  .indexWrap {
+    width: 84%;
+  }
+  #contact {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1%;
+  }
+  #edu {
+    width: 100%;
+    margin-left: auto;
+    position: relative;
+    left: 36px;
+    text-align: center;
+  }
+  #skills {
+    margin-bottom: 5%;
+    font-size: .9em;
+  }
+}
+
+#googleMap{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 95%;
+  height: 650px;
+  border: 8px solid;
+  border-image: repeating-linear-gradient(
+      to bottom right,
+      #33475b,
+      #0033cc,
+      #ff77cc,
+      rgb(255, 122, 89)
+    )
+    20;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
