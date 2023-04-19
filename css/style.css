@@ -313,7 +313,17 @@ for tablets*/
 #googleMap{
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5%;
+  margin-top: 2%;
   width: 95%;
-  height: 600px;
+  height: 650px;
+  border: 8px solid;
+  border-image: repeating-linear-gradient(
+      to bottom right,
+      #33475b,
+      #0033cc,
+      #ff77cc,
+      rgb(255, 122, 89)
+    )
+    20;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
